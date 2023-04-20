@@ -1,0 +1,66 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+  body{
+    box-sizing: border-box;
+    background: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Outfit' , sans-serif;
+  }
+  .container{
+    width: 400px;
+    height: 80vh;
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .inner{
+    width: 350px;
+    height: 70vh;
+    background: white;
+    border-radius: 20px;
+  }
+  .container .inner img{
+    width: 93%;
+    padding: 20px 10px;
+    border-radius: 8%;
+  }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .text{
+      width: 80%;
+      text-align: center;
+      padding: 15px 5px;
+      margin: 15px;
+      font-size: 15px;
+    }
+    #heading-text{
+      font-weight: 700;
+      font-size: 20px;
+      color: hsl(218, 44%, 22%);
+    }
+    .container .inner .test #body-text{
+      font-weight: 300;
+      color: hsl(212, 45%, 89%);
+    }
+   /* @media (min-width: 413px) {
+      .container {
+        width: 90%;
+        height: 90vh;
+      }
+      .container .inner{
+    width: 80%;
+    height: 90%;
+    }
+     #heading-text{
+       font-size: 2.5rem;
+       text-align: center;
+       padding-left: 100px;
+     }
+    }
+*/
